@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  margin-bottom: 0px;
+}
+
+#left {
+
+	background-color: #fff;
+}
+
+header {
+	
+	background-color: #4aaaa5;
+	float: left;
+	padding: 20px;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 120px;
+
+}
+
+.line-separator {
+	margin-top: 15px;
+	height:2px;
+	background: #cecece;
+
+}
+
+section {
+	
+	color: #777777;
+	font-size: 14px;
+	font-family: verdana, sans-serif;
+	padding: 20px;
+	margin-bottom: 17px;
+	margin-left: 520px;
+	text-align: center;
+
+}
+
+.index-link {
+	color: #777777;
+	font-size: 14px;
+	font-family: verdana, sans-serif;
+	text-decoration:none
+}
+
+.portfolio-link {
+	color: #777777;
+	font-size: 14px;
+	font-family: verdana, sans-serif;
+	text-decoration:none
+}
+
+.contacts-link {
+	color: #777777;
+	font-size: 14px;
+	font-family: verdana, sans-serif;
+	text-decoration:none
+}
+
+.line-separator1 {
+	height:5px;
+	background: #4aaaa5;
+
+}
+
+.info {
+	background-color: #fff;
+	float: left;
+    margin-left: 120px;
+    height: 425px;
+	width: 700px; 
+	margin-top: 40px;
+
+}
+
+#infobackground {
+	background-color: #fff;
+
+}
+
+#aboutme {
+	color: #4aaaa5;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-left: 30px;
+	float: left;
+
+}
+
+.line-separator3 {
+	height:3px;
+	width: 640px;
+	background: #e3e3e3;
+	margin-top: -20px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+
+#paragraph {
+	font-family: verdana, sans-serif;
+	font-size: 14px;
+	color: #777777;
+	
+}
+
+.media {
+	background-color: #fff;
+	float: left;
+    margin-left: 40px;
+    padding: 20px;
+    height: 165px;
+	width: 250px; 
+	margin-top: 40px;
+
+}
+
+#mediabackground {
+}
+
+#mediaimages {
+	margin-top: 20px;
+	float: left;
+}
+
+#connect {
+	color: #4aaaa5;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.line-separator4 {
+	height:3px;
+	width:200px;
+	background: #f2f2f2;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0px
+	padding: 20px;
+	background-color: #ededed;
+}
+
+#background {
+	position: relative;
+	padding: 20px;
+	height: 527px;
+	width: 300px;
+	clear: auto;
+}
+
+footer {
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	background-color: #666666;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+
+}
