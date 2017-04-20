@@ -167,11 +167,17 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
+
+	.wrapper {
+
+		height: 600px;
+	}
+
 	.info {
 		background-color: #fff;
 		float: left;
    	 	margin-left: 120px;
-    	height: 425px;
+    	height: 520px;
 		width: 400px; 
 		margin-top: 40px;
 
