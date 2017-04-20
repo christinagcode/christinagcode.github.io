@@ -127,7 +127,7 @@ section {
 }
 
 .portsphinx{
-	margin-top: -230px;
+	margin-top: -250px;
 	margin-left: 305px;
 	margin-bottom: 30px;
 }
@@ -150,7 +150,7 @@ section {
 }
 
 .portgeek {
-	margin-top:  10px;
+	margin-top:  20px;
 	margin-left: 30px;
 	margin-bottom: 30px;
 }
@@ -274,3 +274,259 @@ section {
 	clear: auto;
 }
 
+footer {
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	background-color: #666666;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+
+}
+
+
+@media screen and (max-width: 980px) {
+	
+	#background {
+
+		height: 1350px;
+
+	}
+
+	.info {
+
+		width: 300px;
+		height: 1280px;
+	}
+
+	.line-separator3 {
+
+		width: 240px;
+	}
+
+	.portsphinx{
+
+		margin-top: -10px;
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+
+	#sphinxtag {
+
+		margin-left: 30px;
+  	  left: 120px;
+ 	   top: 615px;
+
+	}
+
+	.portgeek {
+
+		margin-top:  10px;
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+
+	#geektag {
+
+		margin-left: 120px;
+   		left: 30px;
+   		top: 850px;
+   
+	}
+
+	.portsushi{
+		margin-top: 20px;
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+
+	#sushitag {
+		margin-left: 120px;
+    	left: 30px;
+    	top: 1080px;
+	}
+	
+	.portkid {
+		margin-top:  20px;
+	}
+	#kidtag {
+
+   		top: 1310px;
+	}
+
+@media screen and (max-width: 768px) {
+
+	#background {
+
+		height: 1110px;
+
+	}
+
+	header {
+		margin-left: 20px;
+
+	}
+	
+	.info {
+
+	    margin-left: 20px;
+	    height: 825px;
+		width: 700px; 
+		margin-top: 40px;	
+
+	}
+
+	.line-separator3 {
+	
+		height:3px;
+		width: 640px;
+		background: #e3e3e3;
+		margin-top: -20px;
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}	
+
+	#pugtag {
+		margin-left: 20px;
+  
+	}
+
+	.portsphinx{
+		margin-top: -230px;
+		margin-left: 305px;
+		margin-bottom: 30px;
+	}
+
+	#sphinxtag {
+
+		margin-left: 20px;
+	    left: 305px;
+	   	top: 375px;
+	}
+
+	#geektag {
+
+		margin-left: 20px;
+	    top: 610px;
+
+	}
+
+	.portsushi{
+		margin-top: -230px;
+		margin-left: 305px;
+		margin-bottom: 30px;
+	}
+
+	#sushitag {
+
+		margin-left: 20px;
+    	left: 305px;
+    	top: 610px;
+	}
+
+	#kidtag {
+	
+		margin-left: 20px;
+    	left: 30px;
+    	top: 845px;
+
+	}
+
+	.media {
+	    
+		width: 95.4%; 
+		margin-left: 20px;
+	
+	}
+
+	.line-separator4 {
+
+		width: 650px;
+	}
+
+@media screen and (max-width: 640px) {
+
+	#background {
+
+		height: 1570px;
+	}
+
+	header {
+
+		float: none;
+		margin: 0px;
+		text-align: center;
+
+	}
+
+
+	.info {
+
+		width: 93%;
+		height: 1280px;
+	}
+	
+	#options {
+		
+		margin-bottom: -60px;
+
+	}
+
+	.line-separator3 {
+
+		width: 500px;
+	}
+
+	#pugtag {
+
+		margin-top: 45px;
+
+	}
+	
+	.portsphinx {
+
+		margin-top: -10px;
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+	
+	#sphinxtag {
+
+		margin: 0px;
+  	  	left: 50px;
+ 	   	top: 640px;
+
+	}
+
+	#geektag {
+
+		margin-left: 20px;
+   		top: 875px;
+   
+	}
+
+	.portsushi{
+		margin-top: 20px;
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+
+	#sushitag {
+		margin-left: 20px;
+    	left: 30px;
+    	top: 1107px;
+	}
+
+	#kidtag {
+
+   		top: 1340px;
+	}
+
+	.media {
+    
+		width: 93%; 
+		margin-left: 20px;
+
+	}
+
+}

@@ -128,30 +128,6 @@ input[type=submit] {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #paragraph {
 	font-family: verdana, sans-serif;
 	font-size: 14px;
@@ -168,9 +144,6 @@ input[type=submit] {
 	width: 250px; 
 	margin-top: 40px;
 
-}
-
-#mediabackground {
 }
 
 #mediaimages {
@@ -215,5 +188,76 @@ footer {
 	padding: 20px;
 	color: #fff;
 	text-align: center;
+
+}
+
+@media screen and (max-width: 980px) {
+
+	.info {
+
+	width: 400px;
+
+	}
+
+	.line-separator3 {
+	width: 340px;
+	}
+
+@media screen and (max-width: 768px) {
+
+	header {
+		margin-left: 20px;
+	}
+	
+	section {
+
+		padding: 20px;
+		margin-bottom: 17px;
+		margin-left: 520px;
+		text-align: center;
+
+	}
+
+	.info {
+		margin-left: 20px;
+	}
+
+@media screen and (max-width: 640px) {
+
+	header {
+		
+		margin: 0px;
+		width: 100%;
+		text-align: center;
+
+	}
+
+	section {
+
+		margin-bottom: -40px;
+
+	}
+
+	.info {
+		padding: 20px;
+		margin: 20px;
+		width: 570px;
+		height: 470px;
+	}
+
+	#background {
+
+		height: 727px;
+	
+	}
+
+	.media {
+
+    	margin-left: 20px;
+    	padding: 20px;
+    	height: 165px;
+		width: 570px; 
+
+	}
 
 }

@@ -30,13 +30,10 @@ header {
 
 section {
 	
-	color: #777777;
-	font-size: 14px;
-	font-family: verdana, sans-serif;
 	padding: 20px;
 	margin-bottom: 17px;
 	margin-left: 520px;
-	text-align: center;
+
 
 }
 
@@ -102,7 +99,8 @@ section {
 }
 
 
-#paragraph {
+
+.infopiccontainer {
 	font-family: verdana, sans-serif;
 	font-size: 14px;
 	color: #777777;
@@ -166,4 +164,139 @@ footer {
 	color: #fff;
 	text-align: center;
 
+}
+
+@media screen and (max-width: 980px) {
+	.info {
+		background-color: #fff;
+		float: left;
+   	 	margin-left: 120px;
+    	height: 425px;
+		width: 400px; 
+		margin-top: 40px;
+
+	}
+
+	.infopiccontainer {
+		margin: 20px;
+	}
+
+	.line-separator3 {
+	height:3px;
+	width: 330px;
+	background: #e3e3e3;
+	margin-top: -20px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+	header {
+	background-color: #4aaaa5;
+	float: left;
+	padding: 20px;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 20px;
+
+}
+
+	.info {
+	background-color: #fff;
+	float: left;
+    margin-left: 20px;
+    height: 425px;
+	width: 700px; 
+	margin-top: 40px;
+
+	}
+
+	.media {
+	background-color: #fff;
+	float: left;
+    margin-left: 20px;
+    height: 170px;
+	width: 700px; 
+	margin-top: 40px;
+}
+
+footer {
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	background-color: #666666;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+
+}
+
+#background {
+	position: relative;
+	padding: 20px;
+	height: 717px;
+	width: 300px;
+	clear: auto;
+}
+
+@media screen and (max-width: 640px) {
+
+	header {
+
+	background-color: #4aaaa5;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	width: 640px;
+	margin-left: 0px;
+	text-align: center;
+
+	}
+
+	#options {
+	margin-bottom: -40px;
+
+
+	}
+
+	.info {
+	background-color: #fff;
+	margin-left: 30px;
+    height: 470px;
+	width: 550px; 
+	margin-top: 40px;
+
+
+	}
+
+
+	.line-separator3 {
+	height:3px;
+	width: 490px;
+	background: #e3e3e3;
+	margin-top: -20px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+	#background {
+	position: relative;
+	padding: 20px;
+	height: 770px;
+	width: 300px;
+	clear: auto;
+
+}
+
+	.media {
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+    margin-left: 30px;
+    height: 170px;
+	width: 550px; 
+	margin-top: 40px;
 }

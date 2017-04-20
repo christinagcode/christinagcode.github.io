@@ -1,1 +1,2 @@
-# christinagcode.github.io
+# Responsive-Portfolio
+Assignment 2
