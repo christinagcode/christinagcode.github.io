@@ -151,7 +151,7 @@ section {
 #background {
 	position: relative;
 	padding: 20px;
-	height: 527px;
+	height: 680px;
 	width: 300px;
 	clear: auto;
 }
@@ -167,12 +167,6 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
-
-	.wrapper {
-
-		height: 600px;
-	}
-
 	.info {
 		background-color: #fff;
 		float: left;
@@ -185,6 +179,7 @@ footer {
 
 	.infopiccontainer {
 		margin: 20px;
+
 	}
 
 	.line-separator3 {
@@ -196,6 +191,9 @@ footer {
 	margin-bottom: 30px;
 }
 
+	#background {
+		height: 600px;
+	}
 
 
 @media screen and (max-width: 768px) {
