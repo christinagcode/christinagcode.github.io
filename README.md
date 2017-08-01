@@ -1,2 +1,2 @@
 # Responsive-Portfolio
-Assignment 2
+Portfolio containing information about me, my work, and my contact. This site hasbeen made with boostrap.
